@@ -1,5 +1,11 @@
 2012-06-27 Michael Hope <michael.hope@linaro.org>
 
+       Backport from mainline r185702:
+
+       libcpp/
+
+2012-06-27 Michael Hope <michael.hope@linaro.org>
+
        Backport from mainline r186859:
 
        gcc/
