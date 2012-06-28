@@ -1,3 +1,20 @@
+2012-06-28  Ulrich Weigand  <ulrich.weigand@linaro.org>
+ 
+        LP 960283
+        LP 960274
+        LP 960817
+
+        Backport from mainline:
+
+        gcc/
+        PR tree-optimization/52686
+        * tree-vect-data-refs.c (vect_get_smallest_scalar_type): Handle
+        WIDEN_LSHIFT_EXPR.
+
+        gcc/testsuite/
+        PR tree-optimization/52686
+        * gcc.target/arm/pr52686.c: New test.
+
 2012-06-27 Michael Hope <michael.hope@linaro.org>
 
        Backport from mainline r185702:
